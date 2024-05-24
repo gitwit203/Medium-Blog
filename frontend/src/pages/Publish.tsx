@@ -46,7 +46,7 @@ export const Publish=()=>{
     
 }
 
-function TextEditor({onChange}:{onChange : (e:ChangeEvent<HTMLTextAreaElemet> )=>void}){
+function TextEditor({onChange}:{onChange : (e:ChangeEvent<HTMLTextAreaElement> )=>void}){
     return <div>
             <div className="w-full mb-4">
                 <div className="flex items-center justify-between py-2 border-b">
